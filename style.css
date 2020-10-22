@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-secondary {
+    background:#49c644 !important;
+    padding: 8px 20px !important;
+    margin-top: 20px!important;
+    border-radius: 10px!important;
+    color: #fff!important;
+    cursor: pointer!important;
+    font-size: 20px!important;
+}
+.foo-logo span{
+    margin-right : 20px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 50%;
+    background-color: #49c644;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.heading h1{
+    font-size: 30px;
+}
+.login{
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.dropdown-menu{
+    width: 100%;
+    padding: 20px 30px !important;
+
+}
+.logout{
+    background:#49c644;
+    padding: 8px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100% !important;
+    outline: none;
+    color: #fff !important;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none !important;
+}
+.user{
+    font-size: 18px;
+    font-weight: bold;
+}
+.txt{
+    width: 60%;
+    padding: 20px 40px;
+}
+.txt p{
+    color: #49c644;
+    line-height: 23px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.txt h1,.login-box h1{
+    text-transform: uppercase;
+    font-size: 50px;
+
+}
+.txt h1 span{
+    color: #49c644;
+    margin-left: 30px;
+
+}
+.login-box{
+    height: 450px;
+    width: 35%;
+    border: 5px solid #49c644;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.3);
+}
+.login-box form{
+    width: 100%;
+}
+.log-input{
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+
+}
+.log-input input{
+    border: 3px solid #49c644;
+    padding: 15px 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 70% !important;
+    outline: none;
+
+}
+
+.log-input input::placeholder{
+    color: #49c644;
+    font-size: 18px;
+}
+.log-input button{
+    background:#49c644;
+    padding: 12px 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 70% !important;
+    outline: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+
+}
+
+.we-do{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 60px 10px;
+}
+.we-do > .box{
+    margin-top: 20px;
+    height: 350px;
+    width: 300px;
+    border: 5px solid #49c644;
+    border-radius: 20px;
+    background: #dfdfdf;
+    overflow: hidden;
+}
+.box > .box-top{
+    height: 20%;
+    background:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box > .box-top h1{
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.sport-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color:#fff;
+    padding: 20px 0px;
+}
+
+/* page 2 css */
+.page2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mgL{
+    margin-left: 80px;
+}
+.player{
+    margin-top: 30px;
+}
+
+.player-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 80px;
+    margin: 0px 80px;
+    background: #dfdfdf;
+    flex-wrap: wrap;
+    height: auto;
+}
+.cost,.name{
+    width: 28%;
+    min-width: 250px;
+    height: 150px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cost input,.name input{
+    border: 3px solid #49c644;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 70% !important;
+    outline: none;
+}
+
+.cost input::placeholder,.name input::placeholder{
+    color: #49c644;
+    font-size: 18px;
+}
+.green{
+    width: 18%;
+    background-color:#49c644 ;
+    min-width: 150px;
+    height: 150px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cur-box{
+    height: auto;
+    padding: 40px 30px;
+    width: 100%;
+    background: #dfdfdf;
+}
+.border-box{
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid #49c644;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px 0px;
+    width: 100%;
+    flex-wrap: wrap ;
+    align-items: center;
+    
+}
+.border-box > div{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.border-box h1{
+    color: #49c644;
+    font-size: 25px;
+}
+.border-box h2{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.currently{
+    margin: 50px 80px;
+}
+.sport-btn{
+    margin: 30px 0px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.sport-btn button{
+    padding: 10px 30px;
+    background-color:#49c644 ;
+    color: #fff;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.more{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0px 30px;
+}
+.more > .more-box{
+    margin-top: 30px;
+    height: 250px;
+    width: 350px !important;
+    background: #dfdfdf;
+    margin-left: 30px;
+
+}
+.nav-page button{
+    border: 2px solid #49c644;
+    padding: 6px 20px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.active{
+    background-color:#49c644 ;
+    color: #fff;
+
+}
+.sub-heading{
+    margin-bottom: 5px;
+}
+
+/* responsive css */
+@media only screen and (max-width:600px){
+    .txt{
+        width: 100%;
+        padding: 30px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-page{
+        margin-top: 20px;
+    }
+    .user{
+        margin-top: 10px;
+    }
+    .cost,.name,.green{
+        margin-top: 20px;
+        width: 80%;
+    }
+    .player-content{
+    padding: 20px 80px;
+    margin: 0px 40px;
+    }
+    .more{
+        justify-content: center;
+    }
+    .currently{
+        margin: 40px;
+    }
+    .nav-page{
+        display: flex;
+        flex-direction: row;
+    }
+}
